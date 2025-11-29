@@ -830,3 +830,36 @@ const struct Tileset gTileset_UnionRoom =
     .metatileAttributes = gMetatileAttributes_UnionRoom,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Medallia =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Medallia,
+    .palettes = gTilesetPalettes_Medallia,
+    .metatiles = gMetatiles_Medallia,
+    .metatileAttributes = gMetatileAttributes_Medallia,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Star =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Star,
+    .palettes = gTilesetPalettes_Star,
+    .metatiles = gMetatiles_Star,
+    .metatileAttributes = gMetatileAttributes_Star,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Bursbriand =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Bursbriand,
+    .palettes = gTilesetPalettes_Bursbriand,
+    .metatiles = gMetatiles_Bursbriand,
+    .metatileAttributes = gMetatileAttributes_Bursbriand,
+    .callback = NULL,
+};

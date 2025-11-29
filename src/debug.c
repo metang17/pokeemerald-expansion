@@ -3602,7 +3602,8 @@ static void DebugAction_DestroyFollowerNPC(u8 taskId)
     X(MUS_RG_ENCOUNTER_DEOXYS)      \
     X(MUS_RG_TRAINER_TOWER)         \
     X(MUS_RG_SLOW_PALLET)           \
-    X(MUS_RG_TEACHY_TV_MENU)
+    X(MUS_VS_ELIJAH)                \
+    X(MUS_RG_TEACHY_TV_MENU)        
 
 #define SOUND_LIST_SE               \
     X(SE_USE_ITEM)                  \
