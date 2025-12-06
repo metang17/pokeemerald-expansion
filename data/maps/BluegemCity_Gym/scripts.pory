@@ -1,0 +1,289 @@
+mapscripts BluegemCity_Gym_MapScripts {
+}
+
+script BluegemCity_Gym_EventScript_UnpushableBoulder{
+  lockall
+	msgbox(BluegemCity_Gym_Text_Unpushable, MSGBOX_AUTOCLOSE) 
+  waitmessage
+  end
+
+}
+
+script BluegemCity_Gym_EventScript_UncuttableTree{
+  lockall
+	msgbox(BluegemCity_Gym_Text_Uncuttable, MSGBOX_AUTOCLOSE) 
+  waitmessage
+  end
+
+}
+
+script BluegemCity_Gym_EventScript_UnbreakableRock{
+  lockall
+	msgbox(BluegemCity_Gym_Text_Uncuttable, MSGBOX_AUTOCLOSE) 
+  waitmessage
+  end
+
+}
+
+
+script BluegemCity_Gym_EventScript_TreeBall{
+  lockall
+  setflag(FLAG_MOSSDEEP_GYM_SWITCH_1)
+  msgbox(BluegemCity_Gym_Text_TreeBall, MSGBOX_AUTOCLOSE)
+  removeobject(VAR_LAST_TALKED)
+  end
+}
+
+script BluegemCity_Gym_EventScript_RockBall{
+  lockall
+  setflag(FLAG_MOSSDEEP_GYM_SWITCH_2)
+  msgbox(BluegemCity_Gym_Text_RockBall, MSGBOX_AUTOCLOSE)
+  removeobject(VAR_LAST_TALKED)
+  end
+}
+
+script BluegemCity_Gym_EventScript_BoulderBall{
+  lockall
+  setflag(FLAG_MOSSDEEP_GYM_SWITCH_3)
+  msgbox(BluegemCity_Gym_Text_BoulderBall, MSGBOX_AUTOCLOSE)
+  removeobject(VAR_LAST_TALKED)  
+  end
+}
+
+script BluegemCity_Gym_EventScript_MarcBattle{
+	trainerbattle_single(TRAINER_MARC, BluegemCity_Gym_Text_Marc_Intro, BluegemCity_Gym_Text_Marc_Outro)
+	msgbox(BluegemCity_Gym_Text_PostBattle_Marc, MSGBOX_AUTOCLOSE) 
+	waitmessage
+  end
+ 
+}
+
+script BluegemCity_Gym_EventScript_PaulBattle{
+	trainerbattle_single(TRAINER_PAUL, BluegemCity_Gym_Text_Paul_Intro, BluegemCity_Gym_Text_Paul_Outro)
+	msgbox(BluegemCity_Gym_Text_PostBattle_Paul, MSGBOX_AUTOCLOSE) 
+	waitmessage
+  end
+ 
+}
+
+script BluegemCity_Gym_EventScript_GarrisonBattle{
+	trainerbattle_single(TRAINER_GARRISON, BluegemCity_Gym_Text_Garrison_Intro, BluegemCity_Gym_Text_Garrison_Outro)
+	msgbox(BluegemCity_Gym_Text_PostBattle_Garrison, MSGBOX_AUTOCLOSE) 
+	waitmessage
+  end
+ 
+}
+
+script BluegemCity_Gym_EventScript_AlanBattle{
+	trainerbattle_double(TRAINER_ALAN, BluegemCity_Gym_Text_Alan_Intro, BluegemCity_Gym_Text_Alan_Outro, BlueGemCity_Gym_Text_NotEnoughPokemon) 
+	msgbox(BluegemCity_Gym_Text_PostBattle_Alan, MSGBOX_AUTOCLOSE) 
+	waitmessage
+  end
+ 
+}
+
+script BluegemCity_Gym_EventScript_Josh{
+	trainerbattle_single(TRAINER_JOSH_1, BluegemCity_Gym_Text_Josh_Intro, BluegemCity_Gym_Text_Josh_Outro, BluegemCity_Gym_EventScript_JoshDefeated, NO_MUSIC)
+	goto_if_unset(FLAG_RECEIVED_TM_ROCK_TOMB, RustboroCity_Gym_EventScript_GiveRockTomb)
+	msgbox(BluegemCity_Gym_Text_JoshPostBattle, MSGBOX_DEFAULT)
+	waitmessage
+  release
+  end
+ 
+}
+
+script BluegemCity_Gym_EventScript_JoshDefeated{
+	message(BluegemCity_Gym_Text_ReceivedGraniteBadge)
+	waitmessage
+	call(Common_EventScript_PlayGymBadgeFanfare)
+  msgbox(BluegemCity_Gym_Text_GraniteBadgeInfoTakeThis, MSGBOX_DEFAULT)
+  setflag(FLAG_DEFEATED_DEWFORD_GYM)
+  setflag(FLAG_BADGE02_GET)
+  setvar(VAR_0x8008, 2)
+  call(Common_EventScript_SetGymTrainers)
+  goto(BluegemCity_Gym_EventScript_GiveRockTomb)
+  end
+}
+
+script BluegemCity_Gym_EventScript_GiveRockTomb{
+  giveitem(ITEM_TM_ROCK_TOMB)
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  setflag(FLAG_RECEIVED_TM_ROCK_TOMB)
+  msgbox(BluegemCity_Gym_Text_ExplainRockTomb, MSGBOX_DEFAULT)
+  release
+  end
+}
+
+script BluegemCity_Gym_EventScript_GymGuide{
+  lock
+  faceplayer
+  goto_if_set(FLAG_DEFEATED_DEWFORD_GYM, BluegemCity_Gym_EventScript_GymGuidePostVictory)
+  msgbox(BluegemCity_Gym_Text_GymGuideAdvice, MSGBOX_DEFAULT)
+  release
+  end
+}
+
+script BluegemCity_Gym_EventScript_GymGuidePostVictory{
+  msgbox(BluegemCity_Gym_Text_GymGuidePostVictory, MSGBOX_DEFAULT)
+  release
+  end
+}
+
+text BluegemCity_Gym_Text_Uncuttable{
+  "You can't use CUT indoors!$"
+}
+
+
+text BluegemCity_Gym_Text_Unpushable{
+  "It's too heavy! You can't push this."
+}
+
+text BluegemCity_Gym_Text_TreeBall{
+  "{PLAYER} destroyed a TREE!"
+}
+
+text BluegemCity_Gym_Text_RockBall{
+  "{PLAYER} destroyed a ROCK!"
+}
+
+text BluegemCity_Gym_Text_BoulderBall{
+  "{PLAYER} destroyed a BOULDER!"
+}
+
+text BluegemCity_Gym_Text_Marc_Intro{
+  "We might be in the middle of town,\n"
+	"but so what?\p"
+	"My ROCK POKéMON need room to\n"
+	"rampage!$"
+}
+
+text BluegemCity_Gym_Text_Marc_Outro{
+  "Oh, man oh man!\n"
+	"Our challenger is one feisty customer!$"
+}
+
+text BluegemCity_Gym_Text_PostBattle_Marc{
+	"I have to hand it to our LEADER.\p"
+	"It took smarts and sense for him to\n"
+	"pick the ROCK type at his young age.$"
+}
+
+text BluegemCity_Gym_Text_Paul_Intro{
+  "Don't take us GYM TRAINERS lightly!\n"
+  "I'll show you why we're better!$"
+}
+
+text BluegemCity_Gym_Text_Paul_Outro{
+  "You were too good for me…$"
+}
+
+text BluegemCity_Gym_Text_PostBattle_Paul{
+	"You haven't seen anything of the ROCK\n"
+  "type's terrifying power!$"
+}
+
+text BluegemCity_Gym_Text_Garrison_Intro{
+  "If I don't crush you, JOSH will!$"
+}
+
+text BluegemCity_Gym_Text_Garrison_Outro{
+  "My ROCK types were to weak!"
+}
+
+text BluegemCity_Gym_Text_PostBattle_Garrison{
+	"You beat me, but you still have more\n"
+  "up ahead!$"
+}
+
+text BluegemCity_Gym_Text_Alan_Intro{
+  "Hehehe, you don't stand a chance!$"
+}
+
+text BluegemCity_Gym_Text_Alan_Outro{
+  "My plan failed!"
+}
+
+text BluegemCity_Gym_Text_PostBattle_Alan{
+	"I thought I could beat you with my\n"
+  "SELF-DESTRUCTING POKéMON!$"
+}
+
+text BluegemCity_Gym_Text_Josh_Intro{
+  "...\p"
+  "{PLAYER}, isn't it?\n"
+  "My friend AGUSTIN told me about you.\p"
+  "You think you're quite the hotshot\n"
+  "after beating his gym?\p"
+  "I'll be sure to wipe that grin off\n"
+  "your stupid face.$"
+
+}
+
+text BluegemCity_Gym_Text_Josh_Outro{
+  "I fear I've been outdone.$"
+}
+
+text BluegemCity_Gym_Text_ReceivedGraniteBadge{
+  "{PLAYER} received the GRANITE BADGE\n"
+  "from JOSH.$"
+}
+
+text BluegemCity_Gym_Text_GraniteBadgeInfoTakeThis{
+  "The GRANITE BADGE enables your POKéMON\n"
+  "to use the HM move CUT outside of battle\p"
+  "Take this with you, too.$"
+}
+
+text BluegemCity_Gym_Text_ExplainRockTomb{
+  "That TECHNICAL MACHINE, TM39,\n"
+	"contains ROCK TOMB.\p"
+	"It not only inflicts damage by dropping\n"
+	"rocks, it also lowers SPEED.\p"
+  "If you use a TM, it instantly teaches\n"
+	"the move to a POKéMON.\p"
+	"Remember, a TM can be used only once,\n"
+	"so think before you use it.$"
+}
+text BluegemCity_Gym_Text_JoshPostBattle{
+  "I'll be brutally honest, I don't\n"
+  "think you have what it takes to challenge\l"
+  "the next six GTN LEADERS.\p"
+  "But whatever, go ahead and try to prove\n"
+  "me wrong or something.$"
+}
+
+text BluegemCity_Gym_Text_GymSatue{
+  "BLUEGEM CITY POKéMON GYM$" 
+}
+
+text BluegemCity_Gym_Text_GymGuidePostVictory{
+  "Whoa! What a breathtaking victory!\n"
+	"My cheering must've worked!\p"
+	"Great!\n"
+	"Check your TRAINER CARD.\p"
+	"The STONE BADGE you got should be\n"
+	"properly recorded on it.\p"
+  "Congrats!$"
+}
+
+text BluegemCity_Gym_Text_GymGuideAdvice{
+  "What's good, CHAMP-in-the-making?\p"
+  "This GYM PUZZLE is neat, you have to\n"
+  "activate all of the POKéBALL switches\l"
+  "to pave the way to the GYM LEADER!\p"
+  "Be careful though, guarding each switch\n"
+  "is a threatening GYM TRAINER!\p"
+  "JOSH, the GYM LEADER, is a user\n"
+	"of ROCK-type POKéMON.\p"
+	"The ROCK type is very durable, but\n"
+	"it can't stand WATER-type and\l"
+	"GRASS-type moves.\p"
+	"Come see me afterwards, if you beat\n"
+	"the GYM LEADER.\p"
+	"Well, go for it!$"
+}
+
+text BlueGemCity_Gym_Text_NotEnoughPokemon{
+  "C'mon man, solve this puzzle!\n"
+  "You need at least two POKémon!$"
+}

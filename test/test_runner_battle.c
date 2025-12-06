@@ -13,7 +13,10 @@
 #include "random.h"
 #include "test/battle.h"
 #include "window.h"
+<<<<<<< HEAD
 #include "constants/characters.h"
+=======
+>>>>>>> a4d95ea630627eeb68311a25ab20df8d9ef39a0a
 #include "constants/trainers.h"
 
 #if defined(__INTELLISENSE__)

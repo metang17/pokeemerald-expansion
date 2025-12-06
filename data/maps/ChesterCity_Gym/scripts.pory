@@ -1,0 +1,100 @@
+mapscripts ChesterCity_Gym_MapScripts {
+}
+
+script ChesterCity_Gym_EventScript_JennaBattle{
+	trainerbattle_single(TRAINER_JENNA, Jenna_Intro, Jenna_Outro)
+	msgbox(PostBattle_Jenna, MSGBOX_AUTOCLOSE) 
+	waitmessage
+  end
+ 
+}
+
+script ChesterCity_Gym_EventScript_JohannaBattle{
+	trainerbattle_single(TRAINER_JOHANNA, Johanna_Intro, Johanna_Outro)
+	msgbox(PostBattle_Johanna, MSGBOX_AUTOCLOSE) 
+	waitmessage
+  end
+ 
+}
+
+script ChesterCity_Gym_EventScript_TianaBattle{
+	trainerbattle_single(TRAINER_TIANA, Tiana_Intro, Tiana_Outro)
+	msgbox(PostBattle_Tiana, MSGBOX_AUTOCLOSE) 
+	waitmessage
+  end
+ 
+}
+
+script ChesterCity_Gym_EventScript_CadeBattle{
+	trainerbattle_single(TRAINER_CADE_1, Cade_Intro, Cade_Outro)
+	msgbox(PostBattle_Cade, MSGBOX_AUTOCLOSE) 
+	waitmessage
+  end
+ 
+}
+ 
+text Jenna_Intro{
+    "Even flowers wilt…\n"
+    "Guess I will too after this battle.$"
+
+}
+ 
+text Jenna_Outro{
+  "I suppose…\n"
+  "Even winning can’t make the emptiness\l"
+  "go away.$"
+}
+ 
+text PostBattle_Jenna{
+  "I'm here to train and become better\n"
+	"then our toddler of a GYM LEADER.$"
+}
+
+text Johanna_Intro{
+    "Flowers fade, trainers fall…\n"
+    "Let’s get this over with.$"
+}
+ 
+text Johanna_Outro{
+  "Another battle, another reminder\n"
+  "that nothing lasts.$"
+}
+ 
+text PostBattle_Johanna{
+  "Our GYM LEADER is so obnoxious.\p"
+  "I wish I could find a new career\n"
+  "path, but this job pays well.$"
+}
+
+text Tiana_Intro{
+  "Let’s give it our all and have\n"
+  "a blast!$"
+}
+ 
+text Tiana_Outro{
+  "That was amazing!\n"
+  "Thanks for battling with me!$"
+}
+ 
+text PostBattle_Tiana{
+  "Between you and me, I think that\n"
+  "CADE has a crush on me!$"
+}
+
+text Cade_Intro{
+  "Cade: I have all the WOMEN in my gym!\p"
+  "It's great, isn't it?\p"
+  "If you haven't heard of me yet,\n"
+  "I'm CADE, the Chester City GYM LEADER!\p"
+  "I hope you're ready to rumble!$"
+}
+ 
+text Cade_Outro{
+  "Noooo!\n"
+  "My clout....$"
+}
+ 
+text PostBattle_Cade{
+  "Oh well.\n"
+  "Here, take this badge.$"
+}

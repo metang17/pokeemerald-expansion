@@ -216,3 +216,12 @@ const u16 gMetatileAttributes_Star[] = INCBIN_U16("data/tilesets/secondary/star/
 
 const u16 gMetatiles_Bursbriand[] = INCBIN_U16("data/tilesets/secondary/bursbriand/metatiles.bin");
 const u16 gMetatileAttributes_Bursbriand[] = INCBIN_U16("data/tilesets/secondary/bursbriand/metatile_attributes.bin");
+
+const u16 gMetatiles_ChesterGym[] = INCBIN_U16("data/tilesets/secondary/chester_gym/metatiles.bin");
+const u16 gMetatileAttributes_ChesterGym[] = INCBIN_U16("data/tilesets/secondary/chester_gym/metatile_attributes.bin");
+
+const u16 gMetatiles_MedalliaBuilding[] = INCBIN_U16("data/tilesets/primary/medallia_building/metatiles.bin");
+const u16 gMetatileAttributes_MedalliaBuilding[] = INCBIN_U16("data/tilesets/primary/medallia_building/metatile_attributes.bin");
+
+const u16 gMetatiles_MedalliaIndoor[] = INCBIN_U16("data/tilesets/primary/medallia_indoor/metatiles.bin");
+const u16 gMetatileAttributes_MedalliaIndoor[] = INCBIN_U16("data/tilesets/primary/medallia_indoor/metatile_attributes.bin");

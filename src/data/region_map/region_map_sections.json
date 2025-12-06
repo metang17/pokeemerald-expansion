@@ -490,7 +490,7 @@
     },
     {
       "id": "MAPSEC_ABANDONED_SHIP",
-      "name": "CHESTER CITY",
+      "name": "BLUEGEM CITY",
       "x": 6,
       "y": 14,
       "width": 1,
@@ -1242,6 +1242,14 @@
     {
       "id": "MAPSEC_CHESTER_CITY",
       "name": "CHESTER CITY"
+    },
+    {
+      "id": "MAPSEC_BLUEGEM_CITY",
+      "name": "BLUEGEM CITY"
+    },
+    {
+      "id": "MAPSEC_PENRITH_CITY",
+      "name": "PENRITH CITY"
     }
   ]
 }

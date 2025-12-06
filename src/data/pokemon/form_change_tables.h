@@ -1107,6 +1107,9 @@ static const struct FormChange sCoalossalFormChangeTable[] =
 #if P_FAMILY_APPLIN
 static const struct FormChange sFlappleFormChangeTable[] =
 {
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_FLAPPLE_MEGA, ITEM_APPLITE},
+#endif
 #if P_GIGANTAMAX_FORMS
     {FORM_CHANGE_BATTLE_GIGANTAMAX, SPECIES_FLAPPLE_GMAX},
 #endif
@@ -1115,6 +1118,9 @@ static const struct FormChange sFlappleFormChangeTable[] =
 
 static const struct FormChange sAppletunFormChangeTable[] =
 {
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_APPLETUN_MEGA, ITEM_APPLITE},
+#endif
 #if P_GIGANTAMAX_FORMS
     {FORM_CHANGE_BATTLE_GIGANTAMAX, SPECIES_APPLETUN_GMAX},
 #endif

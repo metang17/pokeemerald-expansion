@@ -1691,3 +1691,60 @@ const u16 gTilesetPalettes_Bursbriand[][16] =
 };
 
 const u32 gTilesetTiles_Bursbriand[] = INCBIN_U32("data/tilesets/secondary/bursbriand/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_ChesterGym[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/chester_gym/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/chester_gym/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/chester_gym/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/chester_gym/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/chester_gym/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/chester_gym/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/chester_gym/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/chester_gym/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/chester_gym/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/chester_gym/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/chester_gym/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/chester_gym/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/chester_gym/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_ChesterGym[] = INCBIN_U32("data/tilesets/secondary/chester_gym/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_MedalliaBuilding[][16] =
+{
+    INCBIN_U16("data/tilesets/primary/medallia_building/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/primary/medallia_building/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/primary/medallia_building/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/primary/medallia_building/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/primary/medallia_building/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/primary/medallia_building/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/primary/medallia_building/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/primary/medallia_building/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/primary/medallia_building/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/primary/medallia_building/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/primary/medallia_building/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/primary/medallia_building/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/primary/medallia_building/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_MedalliaBuilding[] = INCBIN_U32("data/tilesets/primary/medallia_building/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_MedalliaIndoor[][16] =
+{
+    INCBIN_U16("data/tilesets/primary/medallia_indoor/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/primary/medallia_indoor/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/primary/medallia_indoor/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/primary/medallia_indoor/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/primary/medallia_indoor/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/primary/medallia_indoor/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/primary/medallia_indoor/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/primary/medallia_indoor/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/primary/medallia_indoor/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/primary/medallia_indoor/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/primary/medallia_indoor/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/primary/medallia_indoor/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/primary/medallia_indoor/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_MedalliaIndoor[] = INCBIN_U32("data/tilesets/primary/medallia_indoor/tiles.4bpp.lz");

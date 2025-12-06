@@ -2538,6 +2538,65 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .formChangeTable = sFlappleFormChangeTable,
     },
 
+#if P_MEGA_EVOLUTIONS
+    [SPECIES_FLAPPLE_MEGA] =
+    {
+        .baseHP        = 80,
+        .baseAttack    = 140,
+        .baseDefense   = 90,
+        .baseSpeed     = 110,
+        .baseSpAttack  = 95,
+        .baseSpDefense = 70,
+        .types = MON_TYPES(TYPE_GRASS, TYPE_DRAGON),
+        .catchRate = 45,
+        .expYield = 170,
+        .evYield_Attack = 2,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_ERRATIC,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS, EGG_GROUP_DRAGON),
+        .abilities = { ABILITY_CHLOROPHYLL, ABILITY_CHLOROPHYLL, ABILITY_CHLOROPHYLL },
+        .bodyColor = BODY_COLOR_GREEN,
+        .speciesName = _("Flapple"),
+        .cryId = CRY_FLAPPLE,
+        .natDexNum = NATIONAL_DEX_FLAPPLE,
+        .categoryName = _("Apple Wing"),
+        .height = 3,
+        .weight = 10,
+        .description = COMPOUND_STRING(
+            "Under the influence of Mega\n"
+            "energy, it produces much more sweet\n"
+            "nectar, and its shape has changed\n"
+            "to resemble a giant apple."),
+        .pokemonScale = 530,
+        .pokemonOffset = 13,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_FlappleGmax,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 3,
+        .frontAnimFrames = sAnims_SingleFramePlaceHolder,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_FlappleGmax,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 2,
+        //.backAnimId = BACK_ANIM_NONE,
+        .palette = gMonPalette_FlappleGmax,
+        .shinyPalette = gMonShinyPalette_FlappleGmax,
+        .iconSprite = gMonIcon_FlappleGmax,
+        .iconPalIndex = 1,
+        .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
+        SHADOW(0, 10, SHADOW_SIZE_XL_BATTLE_ONLY)
+        FOOTPRINT(Flapple)
+        .isMegaEvolution = TRUE,
+        .levelUpLearnset = sFlappleLevelUpLearnset,
+        .teachableLearnset = sFlappleTeachableLearnset,
+        .formSpeciesIdTable = sFlappleFormSpeciesIdTable,
+        .formChangeTable = sFlappleFormChangeTable,
+    },
+#endif //P_MEGA_EVOLUTIONS
+
 #if P_GIGANTAMAX_FORMS
     [SPECIES_FLAPPLE_GMAX] =
     {
@@ -2660,6 +2719,65 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .formSpeciesIdTable = sAppletunFormSpeciesIdTable,
         .formChangeTable = sAppletunFormChangeTable,
     },
+
+#if P_MEGA_EVOLUTIONS
+    [SPECIES_APPLETUN_MEGA] =
+    {
+        .baseHP        = 100,
+        .baseAttack    = 65,
+        .baseDefense   = 90,
+        .baseSpeed     = 110,
+        .baseSpAttack  = 130,
+        .baseSpDefense = 90,
+        .types = MON_TYPES(TYPE_GRASS, TYPE_DRAGON),
+        .catchRate = 45,
+        .expYield = 170,
+        .evYield_Attack = 2,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_ERRATIC,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS, EGG_GROUP_DRAGON),
+        .abilities = { ABILITY_CHLOROPHYLL, ABILITY_CHLOROPHYLL, ABILITY_CHLOROPHYLL },
+        .bodyColor = BODY_COLOR_GREEN,
+        .speciesName = _("Appletun"),
+        .cryId = CRY_APPLETUN,
+        .natDexNum = NATIONAL_DEX_FLAPPLE,
+        .categoryName = _("Apple Nectar"),
+        .height = 4,
+        .weight = 130,
+        .description = COMPOUND_STRING(
+            "Due to Mega energy, this\n"
+            "Pokémon's nectar has thickened. The\n"
+            "increased viscosity lets the nectar\n"
+            "absorb more damage than before."),
+        .pokemonScale = 491,
+        .pokemonOffset = 12,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_AppletunGmax,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 3,
+        .frontAnimFrames = sAnims_SingleFramePlaceHolder,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_AppletunGmax,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 2,
+        //.backAnimId = BACK_ANIM_NONE,
+        .palette = gMonPalette_AppletunGmax,
+        .shinyPalette = gMonShinyPalette_AppletunGmax,
+        .iconSprite = gMonIcon_AppletunGmax,
+        .iconPalIndex = 1,
+        .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
+        SHADOW(0, 10, SHADOW_SIZE_XL_BATTLE_ONLY)
+        FOOTPRINT(Appletun)
+        .isMegaEvolution = TRUE,
+        .levelUpLearnset = sAppletunLevelUpLearnset,
+        .teachableLearnset = sAppletunTeachableLearnset,
+        .formSpeciesIdTable = sAppletunFormSpeciesIdTable,
+        .formChangeTable = sAppletunFormChangeTable,
+    },
+#endif //P_MEGA_EVOLUTIONS
 
 #if P_GIGANTAMAX_FORMS
     [SPECIES_APPLETUN_GMAX] =

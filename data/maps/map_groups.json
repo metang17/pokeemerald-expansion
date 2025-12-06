@@ -641,9 +641,14 @@
     "StarTown_KylesHouse"
   ],
   "gMapGroup_IndoorRoute1": [],
-  "gMapGroup_IndoorPenrith": [],
-  "gMapGroup_IndoorBluegem": [],
+  "gMapGroup_IndoorPenrith": [
+    "PenrithCity_Gym"
+  ],
+  "gMapGroup_IndoorBluegem": [
+    "BluegemCity_Gym"
+  ],
   "gMapGroup_IndoorChester": [
-    "ChesterCity_Gym"
+    "ChesterCity_Gym",
+    "ChesterCity_Gym_B1F"
   ]
 }

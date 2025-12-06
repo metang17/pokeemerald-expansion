@@ -1835,6 +1835,9 @@ static const u16 sCoalossalFormSpeciesIdTable[] = {
 #if P_FAMILY_APPLIN
 static const u16 sFlappleFormSpeciesIdTable[] = {
     SPECIES_FLAPPLE,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_FLAPPLE_MEGA,
+#endif
 #if P_GIGANTAMAX_FORMS
     SPECIES_FLAPPLE_GMAX,
 #endif
@@ -1843,6 +1846,9 @@ static const u16 sFlappleFormSpeciesIdTable[] = {
 
 static const u16 sAppletunFormSpeciesIdTable[] = {
     SPECIES_APPLETUN,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_APPLETUN_MEGA,
+#endif
 #if P_GIGANTAMAX_FORMS
     SPECIES_APPLETUN_GMAX,
 #endif

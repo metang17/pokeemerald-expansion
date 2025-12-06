@@ -1172,3 +1172,9 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/StarTown_KylesHouse/scripts.inc"
 
 	.include "data/maps/ChesterCity_Gym/scripts.inc"
+
+	.include "data/maps/PenrithCity_Gym/scripts.inc"
+
+	.include "data/maps/BluegemCity_Gym/scripts.inc"
+
+	.include "data/maps/ChesterCity_Gym_B1F/scripts.inc"

@@ -469,3 +469,6 @@ const u16 gFieldEffectObjectPalette_CaveDust[] = INCBIN_U16("graphics/field_effe
 //star event objects
 const u32 gObjectEventPic_Cade[] = INCBIN_U32("graphics/object_events/pics/people/gym_leaders/cade.4bpp");
 const u16 gObjectEventPal_Cade[] = INCBIN_U16("graphics/object_events/pics/people/gym_leaders/cade.gbapal");
+
+const u32 gObjectEventPic_Josh[] = INCBIN_U32("graphics/object_events/pics/people/gym_leaders/josh.4bpp");
+const u16 gObjectEventPal_Josh[] = INCBIN_U16("graphics/object_events/pics/people/gym_leaders/josh.gbapal");

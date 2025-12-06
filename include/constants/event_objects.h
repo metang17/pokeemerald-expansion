@@ -247,11 +247,12 @@
 #define OBJ_EVENT_GFX_OW_MON                     240
 #define OBJ_EVENT_GFX_LIGHT_SPRITE               241
 #define OBJ_EVENT_GFX_CADE                       242
+#define OBJ_EVENT_GFX_JOSH                       243
 
 // NOTE: The maximum amount of object events has been expanded from 255 to 65535.
 // Since dynamic graphics ids still require at least 16 free values, the actual limit
 // is 65519, but even considering follower Pokémon, this should be more than enough :)
-#define NUM_OBJ_EVENT_GFX                        243
+#define NUM_OBJ_EVENT_GFX                        244
 
 
 // These are dynamic object gfx ids.
@@ -418,6 +419,7 @@
 #define OBJ_EVENT_PAL_TAG_BALL_STRANGE            0x116A
 #endif //OW_FOLLOWERS_POKEBALLS
 #define OBJ_EVENT_PAL_TAG_CADE                    0x116B
+#define OBJ_EVENT_PAL_TAG_JOSH                    0x116C
 
 // Used as a placeholder follower graphic
 #define OBJ_EVENT_PAL_TAG_SUBSTITUTE              0x7611
@@ -427,7 +429,7 @@
 #define OBJ_EVENT_PAL_TAG_NEON_LIGHT              0x8004
 // Not a real OW palette tag; used for the white flash applied to followers
 #define OBJ_EVENT_PAL_TAG_WHITE                   (OBJ_EVENT_PAL_TAG_NONE - 1)
-#define OBJ_EVENT_PAL_TAG_NONE                    0x116C
+#define OBJ_EVENT_PAL_TAG_NONE                    0x116D
 
 // This + localId is used as the tileTag
 // for compressed graphicsInfos

@@ -4454,12 +4454,42 @@
     {
       "id": "LAYOUT_CHESTER_CITY_GYM",
       "name": "ChesterCity_Gym_Layout",
-      "width": 22,
-      "height": 11,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_MauvilleGameCorner",
+      "width": 17,
+      "height": 50,
+      "primary_tileset": "gTileset_MedalliaBuilding",
+      "secondary_tileset": "gTileset_ChesterGym",
       "border_filepath": "data/layouts/ChesterCity_Gym/border.bin",
       "blockdata_filepath": "data/layouts/ChesterCity_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_PENRITH_CITY_GYM",
+      "name": "PenrithCity_Gym_Layout",
+      "width": 11,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_RustboroGym",
+      "border_filepath": "data/layouts/PenrithCity_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/PenrithCity_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_BLUEGEM_CITY_GYM",
+      "name": "BluegemCity_Gym_Layout",
+      "width": 11,
+      "height": 27,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_RustboroGym",
+      "border_filepath": "data/layouts/BluegemCity_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/BluegemCity_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_CHESTER_CITY_GYM_B1F",
+      "name": "ChesterCity_Gym_B1F_Layout",
+      "width": 10,
+      "height": 14,
+      "primary_tileset": "gTileset_MedalliaBuilding",
+      "secondary_tileset": "gTileset_ChesterGym",
+      "border_filepath": "data/layouts/ChesterCity_Gym_B1F/border.bin",
+      "blockdata_filepath": "data/layouts/ChesterCity_Gym_B1F/map.bin"
     }
   ]
 }

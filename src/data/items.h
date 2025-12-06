@@ -14589,7 +14589,26 @@ const struct Item gItemsInfo[] =
         .iconPic = gItemIcon_PokeshiDoll,
         .iconPalette = gItemIconPalette_PokeshiDoll,
     },
+
+    [ITEM_APPLITE] =
+    {
+        .name = ITEM_NAME("Applite"),
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_MEGA_STONE,
+        .description = COMPOUND_STRING(
+            "This stone enables\n"
+            "Flapple and Appletun to\n"
+            "Mega Evolve in battle."),
+        .pocket = POCKET_ITEMS,
+        .sortType = ITEM_TYPE_MEGA_STONE,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 80,
+        .iconPic = gItemIcon_Tyranitarite,
+        .iconPalette = gItemIconPalette_Tyranitarite,
+    },
 };
+
 
 #undef ITEM_NAME
 #undef ITEM_PLURAL_NAME

@@ -5150,27 +5150,6 @@ Ralts
 Level: 17
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
-=== TRAINER_PAUL ===
-Name: PAUL
-Class: School Kid
-Pic: School Kid M
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Numel
-Level: 15
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Oddish
-Level: 15
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Wingull
-Level: 15
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
 === TRAINER_JERRY_2 ===
 Name: JERRY
 Class: School Kid
@@ -5969,20 +5948,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Seedot
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_JOSH ===
-Name: JOSH
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Geodude
-Level: 10
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
 
 === TRAINER_TOMMY ===
 Name: TOMMY
@@ -10085,19 +10050,6 @@ Absol
 Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GARRISON ===
-Name: GARRISON
-Class: Ruin Maniac
-Pic: Ruin Maniac
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Sandslash
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_LYDIA_2 ===
 Name: LYDIA
 Class: Pkmn Breeder
@@ -10358,28 +10310,6 @@ Roselia
 Level: 26
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-=== TRAINER_JENNA ===
-Name: JENNA
-Class: Pkmn Ranger
-Pic: Pokemon Ranger F
-Gender: Female
-Music: Cool
-Items: Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
-
-Lotad
-Level: 28
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Lombre
-Level: 28
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Nuzleaf
-Level: 28
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
 === TRAINER_SOPHIA ===
 Name: SOPHIA
 Class: Pkmn Ranger
@@ -10550,23 +10480,6 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Numel
 Level: 22
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-=== TRAINER_MARC ===
-Name: MARC
-Class: Hiker
-Pic: Hiker
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Geodude
-Level: 8
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-Geodude
-Level: 8
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_BRENDEN ===
 Name: BRENDEN
@@ -11044,23 +10957,6 @@ Camerupt
 Level: 25
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-=== TRAINER_TIANA ===
-Name: TIANA
-Class: Lass
-Pic: Lass
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Zigzagoon
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Shroomish
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_HALEY_1 ===
 Name: HALEY
 Class: Lass
@@ -11519,27 +11415,6 @@ Numel
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_ALAN ===
-Name: ALAN
-Class: Hiker
-Pic: Hiker
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Geodude
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Nosepass
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Graveler
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_CLARK ===
 Name: CLARK
 Class: Hiker
@@ -11845,19 +11720,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 Illumise
 Level: 39
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-=== TRAINER_JOHANNA ===
-Name: JOHANNA
-Class: Beauty
-Pic: Beauty
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Goldeen
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GERALD ===
 Name: GERALD
@@ -16873,3 +16735,338 @@ Double Battle: No
 Kyogre
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_MARC ===
+Name: MARC
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Clever Trainer
+
+Roggenrola
+Level: 22
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+Nature: Jolly
+Ability: Weak Armor
+- Rock Blast
+- Mud Slap
+- Confide
+- Rock Polish
+
+Rolycoly
+Level: 22
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+Ability: Steam Engine
+Nature: Hardy
+- Round
+- Rock Polish
+- Rock Blast
+- Will O Wisp
+
+=== TRAINER_PAUL ===
+Name: PAUL
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Paul
+
+Nosepass @ Berry Juice
+Ability: Sturdy
+Hardy Nature
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+Level: 22
+- Rock Blast
+- Thunder Wave
+- Pain Split
+- Magnitude
+
+Axew @ Eviolite
+Ability: Mold Breaker
+Jolly Nature
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Level: 23
+- Dragon Dance
+- Outrage
+- Iron Tail
+- Dual Chop
+
+=== TRAINER_GARRISON ===
+Name: GARRISON
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Clever Trainer
+
+Rockruff
+Ability: Vital Spirit
+Hardy Nature
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+Level: 23
+- Bite
+- Sucker Punch
+- Fire Fang
+- Rock Tomb
+
+Timburr @ Toxic Orb
+Ability: Guts
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Adamant Nature
+Level: 23
+- Mach Punch
+- Drain Punch
+- Protect
+- Ice Punch
+
+=== TRAINER_ALAN ===
+Name: ALAN
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Check Bad Move
+
+
+Voltorb @ Choice Band 
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
+Ability: Soundproof
+Lonely Nature  
+Level: 24  
+- Explosion  
+
+Duskull @ Eviolite  
+Ability: Levitate  
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+Level: 22  
+Hardy Nature  
+- Helping Hand  
+- Shadow Sneak  
+
+Carkol  @ Normal Gem
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
+Lonely Nature
+Ability: Steam Engine  
+Level: 23  
+- Explosion  
+
+Metang @ Life Orb  
+Ability: Clear Body
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
+Lonely Nature  
+Level: 23  
+- Explosion  
+
+=== TRAINER_JOSH_1 ===
+Name: JOSH
+Class: Leader
+Pic: Leader Josh
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Smart Trainer
+
+Shuckle @ Red Card  
+Ability: Sturdy
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Level: 24  
+Bold Nature  
+- Sticky Web  
+- Stealth Rock  
+- Encore  
+- Headbutt  
+
+Lycanroc  
+Ability: Keen Eye
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Level: 24  
+Hardy Nature  
+- Sucker Punch  
+- Accelerock  
+- Bite  
+- Howl  
+
+Naclstack  
+Ability: Purifying Salt
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+Level: 23  
+Nature: Hardy
+- Iron Defense  
+- Salt Cure  
+- Body Press  
+- Ancient Power  
+
+Boldore @ Sitrus Berry  
+Ability: Weak Armor
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+Level: 25  
+Jolly Nature  
+- Autotomize  
+- Stone Edge  
+- Explosion  
+- Magnitude  
+
+=== TRAINER_JENNA ===
+Name: JENNA
+Class: Aroma Lady
+Pic: Aroma Lady
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Clever Trainer
+
+Vileplume
+Level: 29
+Ability: Chlorophyll
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Bold
+- Giga Drain
+- Sludge Bomb
+- Strength Sap
+- Toxic
+
+Bellossom
+Level: 29
+Ability: Chlorophyll
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Timid
+- Quiver Dance
+- Giga Drain
+- Strength Sap
+- Moonlight
+
+=== TRAINER_JOHANNA===
+Name: Johanna
+Class: Aroma Lady
+Pic: Aroma Lady
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Clever Trainer
+
+Leafeon
+Level: 30
+Ability: Chlorophyll
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Adamant
+- Swords Dance
+- Leaf Blade
+- Synthesis
+- Double Kick
+
+Tangrowth
+Level: 29
+Ability: Chlorophyll
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Hardy
+- Ancient Power
+- Knock Off
+- Giga Drain
+- Stun Spore
+
+Exeggutor
+Level: 31
+Ability: Chlorophyll
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Hardy
+- Leaf Storm
+- Psyshock
+- Giga Drain
+- Synthesis
+
+=== TRAINER_TIANA ===
+Name: Tiana
+Class: Lass
+Pic: Lass
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Smart Trainer
+
+Breloom
+Level: 31
+Ability: Effect Spore
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Adamant
+- Mach Punch
+- Mega Drain
+- Headbutt
+- Counter
+
+Cetoddle @ Occa Berry
+Level: 33
+Ability: Thick Fat
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Hardy
+- Chilling Water
+- Charm
+- Bulldoze
+- Ice Shard
+
+Tropius
+Level: 32
+Ability: Chlorophyll
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Hardy
+- Aerial Ace
+- Bulldoze
+- Leech Seed
+- Synthesis
+
+=== TRAINER_CADE_1 ===
+Name: CADE
+Class: Leader
+Pic: Leader Cade
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Cade
+
+Trevenant @ Occa Berry
+Level: 32
+Ability: Harvest
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ball: Nest Ball
+Nature: Adamant
+- Will O Wisp
+- Branch Poke
+- Solar Beam
+- Phantom Force
+
+Electrode Hisui @ Normal Gem
+Level: 36
+Ability: Static
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ball: Nest Ball
+Nature: Lonely
+- Self Destruct
+- Thunderbolt
+- Giga Drain
+- Volt Switch
+
+Venusaur
+Level: 33
+Ability: Chlorophyll
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ball: Nest Ball
+Nature: Hardy
+- Sludge Bomb
+- Giga Drain
+- Synthesis
+- Knock Off
+
+Appletun @ Applite
+Level: 35
+Ability: Thick Fat
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ball: Nest Ball
+Nature: Timid
+- Dragon Pulse
+- Apple Acid
+- Leech Seed
+- Recover

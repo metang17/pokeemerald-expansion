@@ -115,10 +115,10 @@
 #define FLAG_MET_TEAM_AQUA_HARBOR            0x61
 #define FLAG_TV_EXPLAINED                    0x62
 #define FLAG_MAUVILLE_GYM_BARRIERS_STATE     0x63
-#define FLAG_MOSSDEEP_GYM_SWITCH_1           0x64 // Leftover from the RS version of Mossdeep Gym, functionally unused
-#define FLAG_MOSSDEEP_GYM_SWITCH_2           0x65 //
-#define FLAG_MOSSDEEP_GYM_SWITCH_3           0x66 //
-#define FLAG_MOSSDEEP_GYM_SWITCH_4           0x67 //
+#define FLAG_MOSSDEEP_GYM_SWITCH_1           0x64 // Bluegem Gym Tree
+#define FLAG_MOSSDEEP_GYM_SWITCH_2           0x65 // Bluegem Gym Rock
+#define FLAG_MOSSDEEP_GYM_SWITCH_3           0x66 // Bluegem Gym Boulder
+#define FLAG_MOSSDEEP_GYM_SWITCH_4           0x67 // 
 
 #define FLAG_UNUSED_0x068                    0x68  // Unused Flag
 
@@ -1387,9 +1387,9 @@
 #define FLAG_IS_CHAMPION                            (SYSTEM_FLAGS + 0x1F) // Seems to be related to linking.
 #define FLAG_NURSE_UNION_ROOM_REMINDER              (SYSTEM_FLAGS + 0x20)
 
-#define FLAG_UNUSED_0x881                           (SYSTEM_FLAGS + 0x21) // Unused Flag
-#define FLAG_UNUSED_0x882                           (SYSTEM_FLAGS + 0x22) // Unused Flag
-#define FLAG_UNUSED_0x883                           (SYSTEM_FLAGS + 0x23) // Unused Flag
+#define FLAG_UNUSED_0x881                           (SYSTEM_FLAGS + 0x21) // No Collosion Debug
+#define FLAG_UNUSED_0x882                           (SYSTEM_FLAGS + 0x22) // No Trainer Debug
+#define FLAG_UNUSED_0x883                           (SYSTEM_FLAGS + 0x23) // No Encounter debug
 #define FLAG_UNUSED_0x884                           (SYSTEM_FLAGS + 0x24) // Unused Flag
 #define FLAG_UNUSED_0x885                           (SYSTEM_FLAGS + 0x25) // Unused Flag
 #define FLAG_UNUSED_0x886                           (SYSTEM_FLAGS + 0x26) // Unused Flag
